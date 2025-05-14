@@ -1,0 +1,203 @@
+# depslib dependency file v1.0
+1746477152 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf_2.0\prog_2_nagyhf\src\article.cpp
+	"Article.h"
+	<iostream>
+
+1746540354 
+
+1746477714 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf_2.0\prog_2_nagyhf\include\article.h
+	<string>
+	"Content.h"
+	<iostream>
+	<fstream>
+	"Content.h"
+
+1746545231 "
+
+1746476823 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf_2.0\prog_2_nagyhf\include\content.h
+	<iostream>
+
+1746476740 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf_2.0\prog_2_nagyhf\src\user.cpp
+	"User.h"
+	<iostream>
+
+1746477772 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf_2.0\prog_2_nagyhf\include\user.h
+	<string>
+	<iostream>
+	<fstream>
+
+1746483337 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf_2.0\prog_2_nagyhf\src\comment.cpp
+	"Comment.h"
+
+1746483354 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf_2.0\prog_2_nagyhf\include\comment.h
+	<string>
+	<iostream>
+	"Content.h"
+	"Article.h"
+	<iostream>
+	<fstream>
+	"Content.h"
+	"Article.h"
+
+1746480220 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf_2.0\prog_2_nagyhf\main.cpp
+	"Comment.h"
+	"NewsPortal.h"
+	"Article.h"
+	"User.h"
+	<iostream>
+
+1746480759 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf_2.0\prog_2_nagyhf\include\newsportal.h
+	<map>
+	<vector>
+	<string>
+	"Article.h"
+	"Comment.h"
+	"User.h"
+	<fstream>
+	<map>
+	<vector>
+	"Article.h"
+	"Comment.h"
+	"User.h"
+
+1746483190 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf_2.0\prog_2_nagyhf\src\newsportal.cpp
+	"NewsPortal.h"
+	<iostream>
+
+1746555603 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\main.cpp
+	<iostream>
+	"NewsPortal.h"
+
+1746555603 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\include\comment.h
+	<string>
+	<iostream>
+	"Content.h"
+	"Article.h"
+
+1746555603 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\include\content.h
+	<iostream>
+
+1746555603 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\include\article.h
+	<string>
+	<iostream>
+	"Content.h"
+
+1746556526 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\include\newsportal.h
+	<map>
+	<vector>
+	<string>
+	"Article.h"
+	"Comment.h"
+	"User.h"
+
+1746555603 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\include\user.h
+	<string>
+
+1746545199 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\src\article.cpp
+	"Article.h"
+	<iostream>
+
+1746555603 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\src\user.cpp
+	"User.h"
+	<iostream>
+
+1746555603 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\src\comment.cpp
+	"Comment.h"
+
+1746555603 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\src\newsportal.cpp
+	"NewsPortal.h"
+	<iostream>
+	<fstream>
+	<sstream>
+
+1746554429 source:/home/wittmann/Programing/Adam/NagyHF/NagyHF_Code/main.cpp
+	<iostream>
+	"NewsPortal.h"
+
+1746549125 /home/wittmann/Programing/Adam/NagyHF/NagyHF_Code/include/Comment.h
+	<string>
+	<iostream>
+	"Content.h"
+	"Article.h"
+
+1746511188 /home/wittmann/Programing/Adam/NagyHF/NagyHF_Code/include/Content.h
+	<iostream>
+
+1746551211 /home/wittmann/Programing/Adam/NagyHF/NagyHF_Code/include/Article.h
+	<string>
+	<iostream>
+	"Content.h"
+
+1746554594 /home/wittmann/Programing/Adam/NagyHF/NagyHF_Code/include/NewsPortal.h
+	<map>
+	<vector>
+	<string>
+	"Article.h"
+	"Comment.h"
+	"User.h"
+
+1746554000 /home/wittmann/Programing/Adam/NagyHF/NagyHF_Code/include/User.h
+	<string>
+
+1746547626 source:/home/wittmann/Programing/Adam/NagyHF/NagyHF_Code/src/Article.cpp
+	"Article.h"
+	<iostream>
+
+1746549181 source:/home/wittmann/Programing/Adam/NagyHF/NagyHF_Code/src/Comment.cpp
+	"Comment.h"
+
+1746554090 source:/home/wittmann/Programing/Adam/NagyHF/NagyHF_Code/src/User.cpp
+	"User.h"
+	<iostream>
+
+1746554601 source:/home/wittmann/Programing/Adam/NagyHF/NagyHF_Code/src/NewsPortal.cpp
+	"NewsPortal.h"
+	<iostream>
+	<fstream>
+	<sstream>
+
+1746902931 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\prog\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	"NewsPortal.h"
+
+1746836197 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\prog\include\newsportal.h
+	<map>
+	<vector>
+	<string>
+	"Article.h"
+	"Comment.h"
+	"User.h"
+
+1746903413 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\prog\include\article.h
+	<string>
+	<iostream>
+	"Content.h"
+
+1746903500 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\prog\include\content.h
+	<iostream>
+
+1746905672 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\prog\include\comment.h
+	<string>
+	<iostream>
+	"Content.h"
+	"Article.h"
+
+1746870752 d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\prog\include\user.h
+	<string>
+	<iostream>
+
+1746638769 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\prog\src\comment.cpp
+	"Comment.h"
+
+1746835848 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\prog\src\newsportal.cpp
+	"NewsPortal.h"
+	<iostream>
+	<fstream>
+	<sstream>
+
+1746836999 source:d:\felhasznalok\adam\bme\villamosmernok_vik\4_felev\prog_2\nagyhf\nagyhf_code\prog\src\user.cpp
+	"User.h"
+	<iostream>
+
