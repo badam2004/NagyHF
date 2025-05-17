@@ -1,0 +1,73 @@
+Remek összefoglaló.;Grace;EgeszsegTippek
+Érdekes nézőpont.;Matyi;CyberBiztonsag
+Lenyűgöző!;Frank;Adatvedelem
+Sokat tanultam belőle.;Éva;IrodalomKortars
+Sokat tanultam belőle.;Kati;Urszonda
+Kérlek írj erről többet is!;Kati;Urszonda
+Érdekes nézőpont.;Matyi;PhishingFenyegetes
+Jó írás!;Huba;BortonNaplo
+Remek összefoglaló.;Alice;EtrendDivatok
+Ez hasznos volt.;Imre;Tengerpartok
+Ez pont kellett most.;Leonárd;Tudomany
+Remek összefoglaló.;Huba;CyberBiztonsag
+Jó írás!;Árpi;Gasztronomia
+Ez pont kellett most.;Grace;TechHirek
+Teljesen egyetértek.;Charlie;Tengerpartok
+Sokat tanultam belőle.;Matyi;EtrendDivatok
+Ez hasznos volt.;Steve;GlobalisFelmelegedes
+Szerintem ez nem pontos.;Olivér;IrodalomKortars
+Nem értek egyet.;Tina;EnergiaMegujulas
+Ez pont kellett most.;Árpi;Tengerpartok
+Érdekes nézőpont.;Olivér;ProgramozasJovoje
+Kérlek írj erről többet is!;Jack;TechHirek
+Köszönöm az infókat!;Tina;Urszonda
+Hol tudok erről többet olvasni?;Leonárd;Tengerpartok
+Remek összefoglaló.;Leonárd;Tengerpartok
+Ez pont kellett most.;David;EnergiaMegujulas
+Szerintem ez nem pontos.;Alice;TechHirek
+Jó írás!;Bob;Gasztronomia
+Kérlek írj erről többet is!;Árpi;Adatvedelem
+Érdekes nézőpont.;Huba;FilmPremier
+Ez hasznos volt.;Yasar;GlobalisFelmelegedes
+Ez pont kellett most.;Tina;Jovojarmuvei
+Nagyon tetszett!;Charlie;FociVB2026
+Ez hasznos volt.;Leonárd;KulturaHete
+Sokat tanultam belőle.;Steve;GlobalisFelmelegedes
+Sokat tanultam belőle.;Pauló;AIForradalom
+Kérlek írj erről többet is!;Frank;AIForradalom
+Mi a forrás?;Steve;WellnessTrukkok
+Nagyon tetszett!;Steve;Tudomany
+Nem értek egyet.;Yasar;AIForradalom
+Teljesen egyetértek.;Frank;Tudomany
+Ez hasznos volt.;Frank;Gasztronomia
+Kérlek írj erről többet is!;Frank;FociVB2026
+Köszönöm az infókat!;Charlie;ProgramozasJovoje
+Mi a forrás?;Frank;Jovojarmuvei
+További cikkeket is szívesen olvasnék tőled!;Alice;FilmPremier
+Teljesen egyetértek.;Grace;BiztonsagCyber
+Hol tudok erről többet olvasni?;Imre;ProgramozasJovoje
+Mi a forrás?;Alice;EtrendDivatok
+Nagyon tetszett!;Kati;AutoTrendek
+Teljesen egyetértek.;Matyi;IrodalomKortars
+Nem értek egyet.;Matyi;Adatvedelem
+Sokat tanultam belőle.;Leonárd;Tengerpartok
+Ez pont kellett most.;Grace;Tudomany
+Kérlek írj erről többet is!;Tina;Gasztronomia
+Ez hasznos volt.;Grace;ProgramozasJovoje
+Teljesen egyetértek.;Imre;GlobalisFelmelegedes
+Ez pont kellett most.;David;ProgramozasJovoje
+További cikkeket is szívesen olvasnék tőled!;Matyi;FilmPremier
+Nem értek egyet.;Matyi;ProgramozasJovoje
+Lenyűgöző!;Kati;CyberBiztonsag
+Jó írás!;Huba;GlobalisFelmelegedes
+Mi a forrás?;Matyi;Top5Csapat
+Hol tudok erről többet olvasni?;David;Testepites
+További cikkeket is szívesen olvasnék tőled!;Leonárd;FilmVelemenyek
+Jobban ki lehetett volna fejteni.;Charlie;GlobalisFelmelegedes
+Jó írás!;Matyi;GlobalisFelmelegedes
+Lenyűgöző!;Kati;VersesEst
+További cikkeket is szívesen olvasnék tőled!;Éva;FilmVelemenyek
+Szerintem ez nem pontos.;Imre;FociVB2026
+Szuper!;Alice;TechHirek
+Jó, de azért mégsem az igazi ám...;Alice;TechHirek
+hmmm;Alice;TechHirek

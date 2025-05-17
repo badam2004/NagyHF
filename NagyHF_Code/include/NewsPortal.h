@@ -19,6 +19,11 @@ public:
     void addComment(const std::string& comment_, const std::string& username_, const std::string& articleTitle_);
     void addUser(const User& user_) { users.push_back(user_); }
 
+    //Getterek
+    std::vector<Article> getArticles(){ return(this->articles); }
+    std::vector<Comment> getComments(){ return(this->comments); }
+    std::vector<User> getuUsers(){ return(this->users); }
+
     //Kereséshez
     void listCommentsForArticle(const std::string& articleTitle_) const;
 
@@ -34,6 +39,9 @@ public:
     void readCommentsFromFile(const std::string& filename);
     void readUsersFromFile(const std::string& filename);
     void readArticlesFromFile(const std::string& filename);
+
+    //Fileba ír
+    void writeAllCommentsToFile(const std::vector<Comment>& comments, const std::string& filename);
 
     //Lekérdezéshez
     void listArticles() const;

@@ -201,3 +201,48 @@
 	"User.h"
 	<iostream>
 
+1747489699 source:c:\users\adamj\desktop\nagyhf\nagyhf_code\src\newsportal.cpp
+	"NewsPortal.h"
+	<iostream>
+	<fstream>
+	<sstream>
+
+1747489378 c:\users\adamj\desktop\nagyhf\nagyhf_code\include\newsportal.h
+	<map>
+	<vector>
+	<string>
+	"Article.h"
+	"Comment.h"
+	"User.h"
+
+1747486708 c:\users\adamj\desktop\nagyhf\nagyhf_code\include\article.h
+	<string>
+	<iostream>
+	"Content.h"
+
+1746903500 c:\users\adamj\desktop\nagyhf\nagyhf_code\include\content.h
+	<iostream>
+
+1746905672 c:\users\adamj\desktop\nagyhf\nagyhf_code\include\comment.h
+	<string>
+	<iostream>
+	"Content.h"
+	"Article.h"
+
+1746870752 c:\users\adamj\desktop\nagyhf\nagyhf_code\include\user.h
+	<string>
+	<iostream>
+
+1746906755 source:c:\users\adamj\desktop\nagyhf\nagyhf_code\src\user.cpp
+	"User.h"
+	<iostream>
+
+1747209941 source:c:\users\adamj\desktop\nagyhf\nagyhf_code\src\comment.cpp
+	"Comment.h"
+
+1747489447 source:c:\users\adamj\desktop\nagyhf\nagyhf_code\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	"NewsPortal.h"
+

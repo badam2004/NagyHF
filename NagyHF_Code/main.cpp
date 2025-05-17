@@ -37,6 +37,7 @@ int main() {
     NewsPortal portal;
     portal.readUsersFromFile("users.txt");
     portal.readArticlesFromFile("articles.txt");
+    portal.readCommentsFromFile("comments.txt");
 
     string username, password;
     cout << "Felhasználónév: ";
@@ -44,11 +45,14 @@ int main() {
     cout << "Jelszó: ";
     cin >> password;
 
+
     if (!portal.authenticateUser(username, password)) {
         cerr << "Sikertelen bejelentkezés!" << endl;
         return -1;
     }
     cout << "Sikeres bejelentkezés! Üdv, " << username << "!" << endl;
+
+    User* belepett = portal.getUserByName(username);
 
     #ifdef _WIN32
         system("chcp 65001");
@@ -102,7 +106,11 @@ int main() {
                 cout << "Választás: 2" << endl;
 
                 // Felhasználók kiírása, az összes adattal, ezt csak admin csinálhatja
-                portal.listUsers();
+
+                if(belepett->isAdmin())
+                    portal.listUsers();
+                else
+                    cout << "Nincs hozzá jogosultságod!" << endl;
                 break;
             }
 
@@ -117,7 +125,7 @@ int main() {
 
                 // Hozzáadunk egy Cikket az eddigiekhez, illetve leellenőrizzük, hogy adott-e user cikket írni
                 string title, content;
-                if (User* user = portal.getUserByName(username); user && user->canPost()) {
+                if (belepett->canPost()) {
                     cout << "Cikk címe: ";
                     getline(cin, title);
                     cout << "Tartalom: ";
@@ -145,8 +153,19 @@ int main() {
                 getline(cin, article);
                 cout << "Komment szövege: ";
                 getline(cin, comment);
-                portal.addComment(comment, username, article);
-                cout << "Komment hozzáadva.\n";
+                int igazsagtevo = portal.getArticles().size();
+                for (int i = 0; i < portal.getArticles().size(); i ++){
+                    if((portal.getArticles())[i].getTitle() == article){
+                        portal.addComment(comment, username, article);
+                        portal.writeAllCommentsToFile(portal.getComments(),"comments.txt");
+                        cout << "Komment hozzáadva.\n" << endl;
+                        igazsagtevo = 0;
+                        break;
+                    }
+                }
+                if(igazsagtevo > 0){
+                    cerr<< "Nincs ilyen újság!" << endl;
+                }
                 break;
             }
 

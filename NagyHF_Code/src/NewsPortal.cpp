@@ -10,6 +10,7 @@ using std::cerr;
 using std::endl;
 using std::ifstream;
 using std::istringstream;
+using std::stringstream;
 
 //Article hozzáadása
 void NewsPortal::addArticle(const string& title_, const string& content_, const string& author_) {
@@ -41,7 +42,7 @@ void NewsPortal::listCommentsForArticle(const string& articleTitle_) const {
     bool found = false;
     for (const auto& temp : comments) {
         if (temp.getArticleTitle() == articleTitle_) {
-            cout << temp.getText() << endl;
+            cout << temp << endl;
             found = true;
         }
     }
@@ -87,6 +88,19 @@ bool NewsPortal::authenticateUser(const string& username, const string& password
     return false;
 }
 
+void NewsPortal::writeAllCommentsToFile(const vector<Comment>& comments, const string& filename) {
+    std::ofstream file(filename);
+    if (!file) {
+        cerr << "Nem sikerült megnyitni a fájlt írásra: " << filename << endl;
+        return;
+    }
+
+    for (const Comment& c : comments) {
+        file << c.getText() << ";" << c.getUsername() << ";" << c.getArticleTitle() << "\n";
+    }
+
+    file.close();
+}
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                    Fileból olvasnak ki
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -127,37 +141,38 @@ void NewsPortal::readArticlesFromFile(const string& filename){
 
     while (std::getline(file, line)) {
 
-        string title, content, author;
+        string title, link, author;
 
         istringstream iss(line);
-        if (iss >> title >> content >> author) {
-            Article temp(title, content, author);
+        if (iss >> title >> link >> author) {
+            Article temp(title, link, author);
             articles.push_back(temp);
         }
     }
 }
 
 //A Kommentekhez
-void NewsPortal::readCommentsFromFile(const string& filename){
+void NewsPortal::readCommentsFromFile(const std::string& filename) {
     ifstream file(filename);
-    string line;
 
     if (!file) {
-        cerr << "Nem lehet a fájlt megnyitni!" << endl;
+        cerr << "Nem lehet a fájlt megnyitni!"<< endl;
         exit(-1);
     }
 
-    while (std::getline(file, line)) {
+    string line;
+    while (getline(file, line)) {
+        stringstream ss(line);
+        string text, username, articleTitle;
 
-        string text, username, title;
-
-        istringstream iss(line);
-        if (iss >> text >> username >> title) {
-            Comment temp(text, username, title);
-            comments.push_back(temp);
+        if (getline(ss, text, ';') && getline(ss, username, ';') && getline(ss, articleTitle)) {
+            Comment tmp (text, username, articleTitle);
+            comments.push_back(tmp);
         }
     }
+    file.close();
 }
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                    Listázásokhoz

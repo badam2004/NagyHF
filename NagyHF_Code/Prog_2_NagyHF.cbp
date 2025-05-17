@@ -37,6 +37,7 @@
 		<Unit filename="Belepes.txt" />
 		<Unit filename="Fokepernyo.txt" />
 		<Unit filename="articles.txt" />
+		<Unit filename="comments.txt" />
 		<Unit filename="include/Article.h" />
 		<Unit filename="include/Comment.h" />
 		<Unit filename="include/Content.h" />
